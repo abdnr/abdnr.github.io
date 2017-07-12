@@ -1,0 +1,18 @@
+# Site settings
+title: abdnr's blog
+description: >
+    This a programming blog by abdnr
+author: abdnr
+email: im.abdnr@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://abdnr.github.io" # the base hostname & protocol for your site
+twitter_username: abdnr
+github_username:  abdnr
+
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /:year/:month/:title
+sass:
+    style: compressed
+

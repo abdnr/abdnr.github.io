@@ -1,0 +1,16 @@
+---
+layout: post
+comments: true
+title:  "Welcome!"
+date:   2017-07-12 21:10:56 +0200
+categories: jekyll update
+---
+
+{% highlight scala linenos %}
+object Hello extends App {
+  println("Just wanted to say hello!")
+}
+#=> prints 'Just wanted to say hello!' to STDOUT.
+{% endhighlight %}
+
+{% include disqus.html %}
